@@ -1,0 +1,57 @@
+{
+  "source" : {
+    "js": ["./src/js/**/*.js"],
+    "sass": {
+      "main": "./src/sass/style.scss",
+      "path": "./src/sass",
+      "files": "./src/sass/**/*.scss"
+    },
+    "html": "./src/html/**/*.html",
+    "img": "./src/etc/img/**/*",
+    "etc": {
+      "files": "./src/etc/**/*",
+      "path": "./src/"
+    },
+    "properties": "./config/dev.js"
+  },
+  "build" : {
+    "path": "./build",
+    "minify": false,
+    "minifyJSMangle": false,
+    "minifyHTMLCollapseWhitespace": true,
+    "minifyHTMLRemoveComments": true,
+    "minifyHTMLQuoteCharacter": "\"",
+    "assetsPath": "/assets",
+    "jsPath": "/js",
+    "cssPath": "/css",
+    "fontPath": "/fonts",
+    "imgPath": "/etc/img"
+  },
+  "serve" : {
+    "port": 8044,
+    "livereloadPort": 35839,
+    "https": false
+  },
+  "libs": {
+    "js": [
+      "./node_modules/jquery/dist/jquery.js",
+      "./node_modules/angular/angular.js",
+      "./node_modules/angular-route/angular-route.js",
+      "./node_modules/bootstrap/dist/js/bootstrap.js",
+      "./node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js",
+      "./node_modules/ask-kodiak-js/dist/ask-kodiak-js-min.js",
+      "./node_modules/vsGoogleAutocomplete/dist/vs-google-autocomplete.min.js",
+      "./node_modules/vsGoogleAutocomplete/dist/vs-autocomplete-validator.min.js"
+
+    ],
+    "fonts": [
+      "./node_modules/bootstrap/fonts/**.*",
+      "./node_modules/@fortawesome/fontawesome-free/webfonts/**.*",
+      "src/art/commercial-fonts/**/*"
+    ],
+    "sass": [
+      "./node_modules/bootstrap-sass/assets/stylesheets",
+      "./node_modules/@fortawesome/fontawesome-free/scss"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@askkodiak/travelers-blockchain",
+  "version": "1.0.0",
+  "description": "Web app to select, create, update customer records with data enrichment",
+  "main": "builds/dev/index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://git.superkickventures.com/travelers/blockchain"
+  },
+  "author": "allan@askkodiak.com",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "angular": "^1.7.9",
+    "angular-route": "^1.7.9",
+    "angular-ui-bootstrap": "^2.5.6",
+    "ask-kodiak-js": "^2.0.3",
+    "audit": "0.0.6",
+    "bootstrap": "^3.4.1",
+    "bootstrap-sass": "^3.4.1",
+    "del": "^5.1.0",
+    "eslint": "^6.7.2",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "jquery": "^3.4.1",
+    "vsGoogleAutocomplete": "^0.5.0",
+    "yargs": "^15.0.2"
+  }
+}
