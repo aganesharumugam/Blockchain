@@ -10,7 +10,7 @@
   "author": "allan@askkodiak.com",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
-    "angular": "^1.7.9",
+    "angular": "^1.8.0",
     "angular-route": "^1.7.9",
     "angular-ui-bootstrap": "^2.5.6",
     "ask-kodiak-js": "^2.0.3",
